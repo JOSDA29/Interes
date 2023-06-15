@@ -1,0 +1,17 @@
+h2 {
+    text-align: center;
+}
+
+p{
+    display: grid;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 10px auto;
+}
+
+nav {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3,10%);
+}
